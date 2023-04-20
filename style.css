@@ -1,0 +1,166 @@
+body, h1, h2, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #333;
+  margin-right: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+.img-container {
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.nutrition-img {
+  max-width: 100px;
+  max-height: 500px;
+}
+
+.about-img {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+.container {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    ul {
+          list-style-type: none;
+          padding-left: 5px;
+        }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.video-container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: gray;
+}
